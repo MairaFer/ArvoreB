@@ -77,8 +77,6 @@ public class ArvoreB {
         }
     }
 
-
-    // ArvoreB.java
     public void carregarDeArquivo(String nomeArquivo) throws IOException {
         try (FileReader leitorArquivo = new FileReader(nomeArquivo);
              BufferedReader leitorBuffer = new BufferedReader(leitorArquivo)) {
